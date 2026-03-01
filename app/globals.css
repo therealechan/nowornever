@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-border: var(--border);
+  --color-fg: var(--foreground);
+  --color-fg-muted: var(--muted);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #ffffff;
+  --surface: #f4f4f5;
+  --border: #e4e4e7;
+  --foreground: #18181b;
+  --muted: #71717a;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --surface: #171717;
+  --border: #262626;
+  --foreground: #ededed;
+  --muted: #737373;
+}
+
+@layer base {
+  * {
+    @apply border-surface-border;
+  }
+  body {
+    @apply bg-background text-fg antialiased;
+  }
+}
+
+/* Smooth transitions for theme switch */
+html {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
