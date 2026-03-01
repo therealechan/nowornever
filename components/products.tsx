@@ -17,6 +17,13 @@ const products = [
         url: 'https://porter.nowornever.work',
         badge: 'macOS',
     },
+    {
+        name: 'Form Snap',
+        tagline: 'Stop re-filling forms',
+        description: 'Chrome extension that scans and replays form fills for faster QA testing. AI Fill generates realistic, domain-aware test data.',
+        url: 'https://form-snap.nowornever.work',
+        badge: 'Chrome',
+    },
 ]
 
 export function Products() {
