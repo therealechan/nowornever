@@ -24,6 +24,13 @@ const products = [
         url: 'https://form-snap.nowornever.work',
         badge: 'Chrome',
     },
+    {
+        name: 'LB Liquidator',
+        tagline: 'One-click position liquidation for Longbridge',
+        description: 'Native macOS app built with Tauri. Liquidate, take-profit, or stop-loss across multiple Longbridge positions in one click. Local-only, open source.',
+        url: 'https://liquidator.nowornever.work',
+        badge: 'macOS',
+    },
 ]
 
 export function Products() {
