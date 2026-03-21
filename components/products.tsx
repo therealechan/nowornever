@@ -31,6 +31,13 @@ const products = [
         url: 'https://liquidator.nowornever.work',
         badge: 'macOS',
     },
+    {
+        name: 'GEO Score',
+        tagline: 'Is your website visible to AI search engines?',
+        description: 'Scan any URL and get a GEO readiness score across structured data, Open Graph, content richness, and knowledge graph dimensions. Free, no account required.',
+        url: 'https://geo-score.nowornever.work',
+        badge: 'Web',
+    },
 ]
 
 export function Products() {
