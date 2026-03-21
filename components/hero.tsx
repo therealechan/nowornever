@@ -21,7 +21,7 @@ export function Hero() {
                     transitionDelay: '0ms',
                 }}>
                 <span className="font-mono text-[11px] tracking-[0.2em] uppercase text-fg-muted select-none">
-                    Independent Software Studio
+                    Trade what you see, be open-minded.
                 </span>
             </div>
 
