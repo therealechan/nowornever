@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowUpRight, Monitor, Chrome, Globe, Terminal } from 'lucide-react'
+import { ArrowUpRight, Monitor, Chrome, Globe, Terminal, Spline } from 'lucide-react'
 import { useState } from 'react'
 
 type Category = 'All' | 'macOS' | 'Chrome' | 'Web'
@@ -56,6 +56,15 @@ const products = [
         url: 'https://geo-score.nowornever.work',
         badge: 'Web' as Category,
         icon: Globe,
+        status: 'Free',
+    },
+    {
+        name: 'Trace',
+        tagline: 'Turn any image into a clean vector',
+        description: 'Upload a photo, illustration, or logo — get a crisp SVG in seconds. Free, no account needed.',
+        url: 'https://trace.nowornever.work',
+        badge: 'Web' as Category,
+        icon: Spline,
         status: 'Free',
     },
 ]
